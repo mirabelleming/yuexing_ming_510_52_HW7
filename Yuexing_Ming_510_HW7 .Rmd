@@ -1,0 +1,16 @@
+---
+title: "510 Assignment 7"
+author: "Yuexing Ming"
+date: "12/20/2017"
+output: html_document
+---
+
+```{r}
+library(dplyr)
+dirty <- read.csv("/Users/ming/Desktop/dirty_data.csv")
+dirty
+myData <- select(dirty,-Strange.HTML)
+myData
+```
+
+
